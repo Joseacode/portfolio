@@ -10,9 +10,7 @@ export default function ContactForm({add}) {
 
   console.log(add)
 
-  let nameRef = useRef("");
-  const lastName = useRef("");
-  const mailRef = useRef("");
+  const nameRef = useRef("");
   const messageRef = useRef("")
 
   const navigate = useNavigate()
@@ -21,19 +19,20 @@ export default function ContactForm({add}) {
     e.preventDefault()
     const newContact = new Contact(
       nameRef.current.value,
-      lastName.current.value,
-      mailRef.current.value,
       messageRef.current.value
   ) 
       add(newContact)
-      alert("Mensaje Enviado")
+      
+      alert(`${nameRef.current.value}, Estaré en contacto contigo. Gracias!!!`)
       navigate("/")
       
   }
 
+
   return (
     <div className={styles.form}>
       <form onSubmit={ addContact }>
+        
         <div>
           <input 
             placeholder="Nombre"
@@ -42,22 +41,7 @@ export default function ContactForm({add}) {
             type="text"
           />
         </div>
-        <div>
-          <input 
-            placeholder="Motivo"
-            id="lastName"
-            ref={lastName}
-            type="text"
-          />
-        </div>
-        <div>
-          <input 
-            placeholder="email"
-            id="email"
-            ref={mailRef}
-            type="email"
-          />
-        </div>
+
         <textarea
           cols={30}
           rows={10}
@@ -66,8 +50,8 @@ export default function ContactForm({add}) {
           ref={messageRef}
           type="text"
         >
-
         </textarea>
+
         <div>
           <input 
             type="submit"
@@ -75,6 +59,7 @@ export default function ContactForm({add}) {
           />
         </div>
       </form>
+
     </div>
   )
 }
