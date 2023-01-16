@@ -15,3 +15,13 @@
     list-style-type: none;
     display: inline;
 }
+
+.isactive{
+    text-decoration: none;
+    color: gold;
+}
+
+.notactive{
+    text-decoration: none;
+    color: gray;
+}

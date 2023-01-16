@@ -1,9 +1,14 @@
 
 
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Principal from './components/containers/principalpage.jsx';
+
+import LandingPage from './pages/ladingpage/ladindingpage.jsx';
+import Footbar from './components/pures/footbar/footbar.jsx';
 import Navbar from './components/pures/navbar/navbar.jsx';
 import Page404 from './pages/404/page404.jsx';
+import Mailsender from './components/containers/mailsender.jsx';
+
+
 
 function App() {
 
@@ -13,10 +18,11 @@ function App() {
     <BrowserRouter>
         <Navbar/>
         <Routes> 
-          <Route path="/" element={<Principal />} />
-          <Route path="/contact" element={<div>En construcción</div>} />
-          <Route path="*" element={<Page404 />} />
-        </Routes>  
+          <Route path="/" element={ <LandingPage /> } />
+          <Route path="/contact" element={ <Mailsender /> } />
+          <Route path="*" element={ <Page404 /> } />
+        </Routes> 
+        <Footbar />   
       </BrowserRouter>
         
     </div>
