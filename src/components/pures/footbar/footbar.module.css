@@ -1,0 +1,46 @@
+.cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    align-content:flex-start;
+    background-color: black;
+    margin: 1px 0px 0px 0px;
+    padding: 50px 50px 95px 50px;
+    width: 93,5%;
+    height: 45px;
+}
+
+.cnt2{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    align-content:flex-start;
+    
+}
+
+.cnt3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.cnt3 label{
+    font-size: 15px;
+}
+
+.cnt img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.cnt label{
+    color: white;
+    padding-top: 5px;
+}
