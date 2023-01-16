@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Contact } from '../../../models/contact.class.js'
 import styles from "./contact.module.css"
 import { useNavigate } from 'react-router-dom';
-
+import img from "../../../images/backmail.png"
 
 
 export default function ContactForm({add}) {
@@ -30,30 +30,35 @@ export default function ContactForm({add}) {
 
 
   return (
-    <div className={styles.form}>
-      <form onSubmit={ addContact }>
-        
+    <div  style={ {background: `url(${img})`,width:"100%" ,height: "600px", backgroundRepeat: 'no-repeat', backgroundColor:"black"} }>
+      <form onSubmit={ addContact }  className={styles.form}>
+          
+
         <div>
           <input 
-            placeholder="Nombre"
-            id="name"
+            placeholder="Ingres tu Email"
+            id="email"
             ref={nameRef}
-            type="text"
+            type="email"
+            required
           />
         </div>
 
         <textarea
-          cols={30}
+          cols={50}
           rows={10}
           placeholder="Tu mensaje"
           id='message'
           ref={messageRef}
           type="text"
+          resize = "none"
+          required
         >
         </textarea>
 
         <div>
-          <input 
+          <input className={styles.button}
+            
             type="submit"
             value={"Enviar"}
           />
