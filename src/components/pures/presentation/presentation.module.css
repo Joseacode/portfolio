@@ -7,6 +7,12 @@
     margin:250px 0px 0px 100px;
   }
   
+.tit1{
+  color:white;
+  size: 30px;
+  margin-left: 630px;
+}
+
   .line2{
     font:bold;
     font-size: 35px;
@@ -17,8 +23,9 @@
 
   .cnt1{
     text-align: justify;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px 0px 200px;
     font-size: 20px;
     background-color: black;
     color: white;
+    width: 70%;
   }

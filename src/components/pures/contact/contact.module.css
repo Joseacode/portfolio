@@ -1,14 +1,17 @@
+.cntform{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-color:black;
+}
+
 .form{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
     height: 680px;
-    padding: 0px 0px 0px 150px;
-
-    
-
+    padding: 0px 0px 0px 150px; 
 }
 
 .button{
@@ -22,13 +25,16 @@
    height: 60px;
    border-radius: 20px;
    margin-left: 120px;
-   margin-top: 20px;
+   margin-top: 20px
 
 }
+
 .button:hover{
     background-color: white;
     color: red;
 }
+
 .form textarea{
     resize: none;
-    }
+}
+

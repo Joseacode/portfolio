@@ -9,6 +9,11 @@
   list-style: none;
   text-align: justify;
   font-size: 20px;
-  margin: 0px 50px 0px 180px ;
+  margin: 0px 50px 0px 130px ;
+  width: 67%;
   color: white;
+}
+
+styles.list{
+  margin-left:2000px;
 }

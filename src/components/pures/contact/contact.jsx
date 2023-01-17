@@ -25,18 +25,16 @@ export default function ContactForm({add}) {
       
       alert(`${nameRef.current.value}, Estaré en contacto contigo. Gracias!!!`)
       navigate("/")
-      
+  
   }
 
-
   return (
-    <div  style={ {background: `url(${img})`,width:"100%" ,height: "600px", backgroundRepeat: 'no-repeat', backgroundColor:"black"} }>
+    <div  className={styles.cntform} style={ {background: `url(${img})`} }>
       <form onSubmit={ addContact }  className={styles.form}>
           
-
         <div>
           <input 
-            placeholder="Ingres tu Email"
+            placeholder="Ingresa tu Email"
             id="email"
             ref={nameRef}
             type="email"
