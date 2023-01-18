@@ -1,3 +1,11 @@
+.img{
+  width: 100%;
+  padding-top: 75px;
+}
+
+
+
+
 .line1{
     font:bold;
     font-size: 40px;
@@ -7,11 +15,6 @@
     margin:250px 0px 0px 100px;
   }
   
-.tit1{
-  color:white;
-  size: 30px;
-  margin-left: 630px;
-}
 
   .line2{
     font:bold;
@@ -22,10 +25,29 @@
   }
 
   .cnt1{
-    text-align: justify;
-    padding: 0px 50px 0px 200px;
+    text-align:initial;
     font-size: 20px;
-    background-color: black;
     color: white;
-    width: 70%;
+    width: 60%;
+    position:relative;
+    bottom: 700px;
+    left: 110px;
+    font-size: 30px;
   }
+
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

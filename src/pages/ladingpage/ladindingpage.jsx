@@ -9,7 +9,7 @@ export default function LandingPage() {
       <div>
         <Principal />
         <Presentation />
-        <History /> 
+        {/* <History />  */}
       </div> 
       )
  }

@@ -1,9 +1,12 @@
 import React, { useRef } from 'react'
 import PropTypes from 'prop-types';
 import { Contact } from '../../../models/contact.class.js'
+import Swal from 'sweetalert2/dist/sweetalert2.js'
 import styles from "./contact.module.css"
 import { useNavigate } from 'react-router-dom';
 import img from "../../../images/backmail.png"
+
+
 
 
 export default function ContactForm({add}) {
@@ -22,8 +25,7 @@ export default function ContactForm({add}) {
       messageRef.current.value
   ) 
       add(newContact)
-      
-      alert(`${nameRef.current.value}, Estaré en contacto contigo. Gracias!!!`)
+      Swal.fire('Estaremos en contacto pronto....')
       navigate("/")
   
   }
@@ -55,11 +57,14 @@ export default function ContactForm({add}) {
         </textarea>
 
         <div>
-          <input className={styles.button}
-            
+          <button
+            style={{width:"150px", margin:"30px 0px 0px 130px"}}
             type="submit"
-            value={"Enviar"}
-          />
+            className="btn btn-primary btn-block"
+            data-bs-toggle="button"
+            >Enviar
+          </button>
+
         </div>
       </form>
 
