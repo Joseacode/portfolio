@@ -10,7 +10,7 @@ export default function Footbar(){
   return (
     <div className={styles.cnt}>
         
-        <div><label style={{fontSize: "30px"}}>Estoy en las redes...</label></div>
+        <div><label className={styles.tit}>Estoy en las redes...</label></div>
         <div className={styles.cnt2}>
             <div className={styles.cnt3}
                 onClick={()=>{ window.open("https://twitter.com/JoseAnt87237179")}}

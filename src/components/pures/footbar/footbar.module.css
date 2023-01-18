@@ -1,15 +1,22 @@
 .cnt{
+   
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
     align-content:flex-start;
     background-color: black;
-    margin: 0px 0px 0px 0px;
-    padding: 50px 50px 95px 50px;
+    padding: 0px 50px 160px 0px;
     width: 93,5%;
     height: 45px;
+   
 }
+
+.tit{
+    font-size: 30px;
+    bottom: 30px;
+}
+
 
 .cnt2{
     display: flex;
@@ -17,8 +24,9 @@
     justify-content:flex-start;
     align-items:flex-start;
     align-content:flex-start;
-    
 }
+
+
 
 .cnt3{
     display: flex;
