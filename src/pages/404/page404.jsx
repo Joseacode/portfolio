@@ -1,3 +1,8 @@
+/**
+ * Página 404 se mostrara cuando la ruta no exista
+ */
+
+
 import React from 'react'
 import img from '../../images/404/404.png'
 

@@ -1,7 +1,11 @@
+/**
+ * Componente padre de los componenetes Principal y Presentación.
+ * Se agruoan en unsa sola pagina y seran "Renderizados" en el orden que aparecen formando la Ladingpage
+ */
+
 import React from 'react'
-import History from '../../components/pures/history/history'
 import Presentation from '../../components/pures/presentation/presentation'
-import Principal from '../../components/pures/principal/principal'
+import Principal from '../../components/pures/principal/princiapal'
 
 export default function LandingPage() {
  
@@ -9,7 +13,6 @@ export default function LandingPage() {
       <div>
         <Principal />
         <Presentation />
-        {/* <History />  */}
       </div> 
       )
  }

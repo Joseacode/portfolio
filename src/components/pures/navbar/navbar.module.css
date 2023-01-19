@@ -14,6 +14,7 @@
 {
     list-style-type: none;
     display: inline;
+    padding-left: 30px;
 }
 
 .isactive{

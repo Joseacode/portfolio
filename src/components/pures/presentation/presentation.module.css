@@ -13,4 +13,193 @@
   font-size: 15px;
 }
 
+.line1{
+ position: absolute;
+ left: 160px;
+ bottom: 350px;
+ color:white;
+ font-size: 30px
+}
 
+.line2{
+  position: absolute;
+  left: 160px;
+  bottom: 150px;
+  color:white;
+  font-size: 30px;
+}
+
+.line3{
+  position: absolute;
+  left: 300px;
+  bottom: 120px;
+  color:white;
+  font-size: 20px;
+}
+
+.line4{
+  position: absolute;
+  left: 320px;
+  bottom: 100px;
+  color:white;
+  font-size: "15px";
+}
+
+.line5{
+  position: absolute;
+  left: 160px;
+  bottom: 60px;
+  color:white;
+  font-size: 30px;
+}
+
+.line6{
+  position: absolute;
+  left: 300px;
+  bottom: 30px;
+  color:white;
+  font-size: 20px;
+}
+
+.line7{
+  position: absolute;
+  left: 320px;
+  bottom: 10px;
+  color:white;
+  font-size: 15px;
+}
+
+.line8{
+  position: absolute;
+  left: 160px;
+  bottom: -30px;
+  color:white;
+  font-size: 30px;
+}
+
+.line9{
+  position: absolute;
+  left: 300px;
+  bottom: -55px;
+  color:white;
+  font-size: 15px;
+}
+
+.line10{
+  position: absolute;
+  left: 160px;
+  bottom: -100px;
+  color:white; 
+  font-size: 30px;
+}
+
+.line11{
+  position: absolute;
+  left: 300px;
+  bottom: -120px;
+  color:white;
+  font-size: 20px;
+}
+
+.line12{
+  position: absolute;
+  left: 320px;
+  bottom: -140px;
+  color:white;
+  font-size: 15px;
+}
+
+.line13{
+  position: absolute;
+  left: 300px;
+  bottom: -170px;
+  color: white;
+  font-size: 20px;
+}
+
+.line14{
+  position: absolute;
+  left: 320px;
+  bottom: -190px;
+  color: white;
+  font-size: 15px;
+}
+
+.line15{
+  position: absolute;
+  left: 300px;
+  bottom: -220px;
+  color:white;
+  font-size: 20px;
+}
+
+.line16{
+  position: absolute;
+  left: 320px;
+  bottom: -240px;
+  color:white;
+  font-size: 15px
+}
+
+.line17{
+  position: absolute;
+  left: 300px;
+  bottom: -270px;
+  color:white;
+  font-size: 20px;
+}
+
+.line18{
+  position: absolute;
+  left: 320px;
+  bottom: -290px; 
+  color: white;
+  font-size: 15px;
+}
+
+.line19{
+  position: absolute;
+  left: 300px;
+  bottom: -320px;
+  color:white;
+  font-size: 20px;
+}
+
+.line20{
+  position: absolute;
+  left: 320px;
+  bottom: -340px;
+  color: white;
+  font-size: 15px;
+}
+
+.line21{
+  position: absolute;
+  left: 300px;
+  bottom: -370px;
+  color:white;
+  font-size: 20px;
+}
+
+.line22{
+  position: absolute;left: 320px;
+  bottom: -390px;
+  color:white;
+  font-size: 15px;
+}
+
+.line23{
+  position: absolute;
+  left: 160px;
+  bottom: -430px;
+  color:white;
+  font-size: 30px;
+}
+
+.line24{
+  position: absolute;
+  left: 320px;
+  bottom: -450px;
+  color:white;
+  font-size: 15px;
+}
